@@ -64,7 +64,8 @@ while running:
         bullets_coord[sch] = cords
         sch += 1
             
-            
+    # сделать удаление пули при достижение конца экрана!!!
+    
             
     screen.blit(hero, (x_hero, y_hero))
     if moving == 'UP':
